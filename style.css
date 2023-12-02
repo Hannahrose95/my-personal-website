@@ -25,7 +25,7 @@ li {margin: 15px;}
   
 
   
-  p { 
+  .first { 
     display:flex;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
@@ -117,7 +117,7 @@ li {margin: 15px;}
     align-items: center;
     text-align: center;
     font-style: italic;
-    text-wrap: balance;
+
   }
   
   .back-content {
@@ -181,7 +181,7 @@ li {margin: 15px;}
     font-family:'Courier New', Courier, monospace;
     align-items: center;
     text-align: center;
-    text-wrap: balance;
+
   }
   
   
@@ -254,7 +254,6 @@ li {margin: 15px;}
   font-family: 'Courier New', Courier, monospace; 
   width: 100%;
   margin-left: 10px;
-  text-wrap: balance;
   vertical-align:middle;
   }
   
@@ -274,12 +273,16 @@ li {margin: 15px;}
   .button {
     border-radius: 10px ;
   }
-  h4 {font-size:small;
+
+  h4 {
+  font-size:small;
   font-family: 'Courier New', Courier, monospace;
-  font-style: italic;}
+  font-style: italic;
+  }
   
   
-  .footer { font-family: 'Courier New', Courier, monospace;
+  .footer { 
+    font-family: 'Courier New', Courier, monospace;
     color: black;
     font-style: italic;
     padding:20px;
@@ -287,10 +290,10 @@ li {margin: 15px;}
     border: 1px solid whitesmoke; 
     background-color: #FFE8D6;
     font-size: 10px;
-    position: inline-block;
+
     column-gap: 100px;
     align-items: center;
-  }
+    }
 
     h4 {
     font-size: 20px;
@@ -320,7 +323,19 @@ li {margin: 15px;}
       justify-content: center;
       align-items: center;
     }
-    form  { display: table;}
-p     { display: table-row;  }
-label { display: table-row; }
-input { display: table-cell; }
+    
+    form   { 
+    display: table;
+    }
+
+    p {
+    display: table-row;  
+    }
+
+    label {
+    display: table-row; 
+
+    }
+    input { 
+    display: table-cell; 
+    }
