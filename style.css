@@ -1,7 +1,9 @@
 
 ul {
-    padding: 5px
+    list-style-type: none;
 }
+
+li {margin: 15px;}
 
 .flip {
     display: flex;
@@ -37,6 +39,7 @@ ul {
     display: flex;
     justify-content: center;
     width:100%
+
    }
   
   div > h3 {
@@ -312,6 +315,9 @@ ul {
       font-size: 20px;
     }
 
-    .row {text-align: center;
+    .row {
+      text-align: center;
       justify-content: center;
-      align-items: center;}
+      align-items: center;
+    }
+    
