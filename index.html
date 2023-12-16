@@ -9,56 +9,103 @@
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body>
+    <body  data-theme="bumblebee prose">
         <div>
-            <div class = "header">
-                <h1>Hannah Porter</h1>
+            <div class = "header" >
+        </div>
+
+        <div class = "title">
+            <h1>Hi Im Hannah </h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-offset-2">
+                    <p>  Im a Front End Design student with 
+                    <br> Academy XI. I also am a Fully Qualified Dietitian and currently work at Baker Heart and Diabetes. I love creating and designing content that is useful and beuatiful.
+                    <br> Looking forward to working with you! 
+                    </p>
+                </div> 
+                <div class="col-lg-4 col-sm-2">
+                    <img src="https://images.pexels.com/photos/4652244/pexels-photo-4652244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " 
+                    class="img-fluid" alt="Responsive image">
+                </div>
             </div>
         </div>
-        <div class="first">
-            <p> Hi Im Hannah a current front end deisgn student at Academy XI. 
-                <br> I love creating and designing content that is useful and beuatiful.
-                <br> Im also a fully qualified Dietitian working at Baker Heart and Diabetes Institute.
-                <br> Looking forward to hearing from you soon! 
-            </p>
-    </div>
-        <div class="flip d-flex flex-column flex-lg-row gap-5"> 
-            <div class="flip-card">
+        <!-- <div class="description" style="height:1000px;width=100%">
+                    <h3>Resume</h3>
+                    <li>Dietitian<br> Heart and diabetes instititue <br> </li>
+                    <li>Early Career Front End Developer</li>
+                </div>
+              <div class="col-4">
+                    <img src="https://images.pexels.com/photos/4652244/pexels-photo-4652244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " style="width: 300px;height: 300px;">
+                </div>
+                <div class="col-4">
+                    <img src="https://images.pexels.com/photos/4652244/pexels-photo-4652244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " style="width: 300px;height: 300px;">
+                </div>
+            </div>
+        </div> -->
+
+         
+        
+        <div class="flip d-flex flex-column flex-lg-row gap-5" style="Margin: 90px;"> 
+            <div class="flip-card .col-4">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="https://images.pexels.com/photos/1662242/pexels-photo-1662242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="feild of daises">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-50 translate-middle"><p>About me</p></div>
+                        </div>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="white" class="bi bi-info" viewBox="0 0 16 16">
+                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                          </svg>
+                        </div>
                     </div>
                     <div class="flip-card-back">
                         <ul class="back-content">
-                            <li><h4>About Me</h4></li>  <!-- add header -->
+                            <li><h5>About Me</h5></li>  <!-- add header -->
                             <li>Melbourne based</li>
                             <li>Early Career Front End Developer</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="flip-card">
+            <div class="flip-card .col-4">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="https://images.pexels.com/photos/4652244/pexels-photo-4652244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="set table">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-50 translate-middle"><p>Credentials</p></div>
+                        </div>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="white" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                            <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"/>
+                            <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+                            </svg>
+                        </div>
                     </div>
                     <div class="flip-card-back">
-                            <ul class="back-content"><!-- add header -->
-                                <li><h4>Credentials</h4></li>
-                                <li> Academy XI bootcamp  2024</li>
-                                <li>Bacehlor of Nutrition and Dietetics (Honours) Newcastle university 2018</li>
-                            </ul>
+                        <ul class="back-content"><!-- add header -->
+                            <li><h5>Credentials</h5></li>
+                            <li> Academy XI bootcamp  2024</li>
+                            <li>Bacehlor of Nutrition and Dietetics (Honours) Newcastle university 2018</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="flip-card">
+            <div class="flip-card .col-4">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="https://images.pexels.com/photos/2535392/pexels-photo-2535392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="flower yellow">
+                        <div class="position-relative">
+                            <div class="position-absolute top-0 start-50 translate-middle"><p>Resume</p></div>
+                        </div>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" fill="white" class="bi bi-pencil" viewBox="0 0 16 16">
+                            <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                          </svg>
+                        </div>
                     </div>
                     <div class="flip-card-back">
                         <ul class="back-content">  <!-- add header -->
-                            <li><h4>Resume</h4></li>
+                            <li><h5 class="font-size:10px;">Resume</h5></li>
                             <li> Baker Heart and Diabetes Institute 2023-Current</li>
                             <li>Coffs Harbour health Campus Dietitian 2019-2023</li>
                         </ul>
@@ -66,105 +113,84 @@
                 </div>
             </div>
         </div> 
-        <div> 
-            <div class="container">
-                <!-- <div class="form">
-                    <h4>Contact Me</h4>
-                    <div class="name">
-                        <label for= "name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="First and Last Name" style="width: 250px;">
-                    </div>
-                    <div class="email">
-                        <label for="email">Email:</label>
-                        <input type="text" id="email" name="email" placeholder="Email address" style="width: 250px;">
-                    </div>
-                    <div class="write">
-                        <textarea rows="10" cols="55" id="text" name="text" placeholder="write your message"></textarea>
-                    </div>
-                    <div class="button">
-                        <input type="submit" value="send">
-                    </div>
-                </div> -->
-                <form class="row g-3 p-5">
-                    <div class="col-md-6">
-                        <label for="name" class="form-label">Full Name</label>
-                        <input type="text" class="form-control" id="inputname" placeholder="Yourname">
-                      </div>
-                    <div class="col-md-6">
-                      <label for="inputEmail4" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="yourname@hotmail.com">
-                    </div>
-                    <div class="col-md-12">
-                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" cols="150" placeholder="write your message here" ></textarea>
-                    </div>
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-light">Submit</button>
-                    </div>
-                  </form>
+        <form>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <h3>Contact me:</h3>
+                </div>
             </div>
-        </div>
-        <div class="row">    
-            <div class="footer">
-                <table> 
-                    <tr class="details">
-                        <td>Socials:</td>
-                        <td><a href= "hannah.porter@hotmail.com">Hannah.porter1995@hotmail.com</a></td> 
-                        <td> +61 0403966846</td>
-                        <td><a href="https://github.com/Hannahrose95"><img src= "https://cdn-icons-png.flaticon.com/512/25/25231.png" alt= "github icon" style="width: 50px;height:50px"></a></td>
-                        <td><a href= "https://instagram.com/foreverythingnice?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"><img src="https://cdn.mos.cms.futurecdn.net/6dDoc8GV9fYUPExgLYPqqT-1200-80.jpg" alt="instagram icon" style="width:50px;height:50px"></a></td>
-                        <td><a href=" "><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/1200px-Facebook_Messenger_logo_2020.svg.png"  alt="messagner icon" style="width:50px;height:50px"></a></td>
-                    </tr>
-                </table>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="Name" class="col-sm-2 col-form-label"></label>
+                    <input type="name" class="form-control" id="personIDname" placeholder="Full Name">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="inputEmail4" class="col-sm-2 col-form-label"></label>
+                    <input type="email" class="form-control" id="inputemail" placeholder="Email">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="service">Choose a service:</label>
+                    <select class= "form-select form-select-md mb-3"aria-label=".form-select-lg example" placeholder="choose a service" name="service" id="service" required>
+                        <option value= "select"></option>
+                        <option value="Dietetics">Dietetics</option>
+                        <option value="Web Design">Web design</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" cols="150" placeholder="Write your message here" ></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <button type="submit" class="btn btn-hannah">Submit</button>
+                </div>
+            </div>
+        </form>
+        <div class="card text-center mb-3 border-0"><hr width="100%" size="2">    
+            <div class="card body"> 
+                <div class="row text-center">
+                    <div class="col">
+                        <a href= "hannah.porter@hotmail.com">Hannah.porter1995@hotmail.com</a>
+                    </div>
+                    <div class="col text-center">
+                        +61 0403966846
+                    </div>
+                    <div class="col mx-auto">
+                        <a href="https://github.com/Hannahrose95">
+                            <img class="mx-auto"
+                                src= "https://cdn-icons-png.flaticon.com/512/25/25231.png" 
+                                alt= "github icon" style="width: 25px;height:25px">
+                        </a>
+                    </div>
+                    <div class="col text-center">
+                        <a href= "https://instagram.com/foreverythingnice?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr">
+                            <img class="mx-auto"
+                                src="https://cdn.mos.cms.futurecdn.net/6dDoc8GV9fYUPExgLYPqqT-1200-80.jpg" 
+                                alt="instagram icon" style="width:25px;height:25px;">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <a href= "https://www.linkedin.com/in/hannah-porter-928377128">
+                                <svg  class="mx-auto" 
+                                    xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256"
+                                    style="fill: #000000;" >
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M42,37c0,2.762 -2.238,5 -5,5h-26c-2.761,0 -5,-2.238 -5,-5v-26c0,-2.762 2.239,-5 5,-5h26c2.762,0 5,2.238 5,5z" fill="#fcc419"></path><path d="M12,19h5v17h-5zM14.485,17h-0.028c-1.492,0 -2.457,-1.112 -2.457,-2.501c0,-1.419 0.995,-2.499 2.514,-2.499c1.521,0 2.458,1.08 2.486,2.499c0,1.388 -0.965,2.501 -2.515,2.501zM36,36h-5v-9.099c0,-2.198 -1.225,-3.698 -3.192,-3.698c-1.501,0 -2.313,1.012 -2.707,1.99c-0.144,0.35 -0.101,1.318 -0.101,1.807v9h-5v-17h5v2.616c0.721,-1.116 1.85,-2.616 4.738,-2.616c3.578,0 6.261,2.25 6.261,7.274l0.001,9.726z" fill="#ffffff"></path></g></g>
+                                </svg> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col mx-auto">
+                        Icons by Icons8
+                    </div>
+                </div>
             </div> 
         </div> 
     </body>
-</html>
-
-
-
-        <!-- <section>
-            <div>
-                <table>
-                    <tr>
-                        <th>About Me:</th> 
-                    </tr>
-                    <tr>
-                        <td>Front-end Developer</td>
-                        <td>current</td>  
-                    </tr>
-                    <tr>
-                        <td>Dietitian </td>
-                        <td>2018-2023</td>
-                    </tr>
-                    <tr>
-                        <td>Located</td>
-                        <td>Melbourne</td>
-                    </tr>
-                </table>
-            </div>   -->
-
-
-
-                    <!-- <div class="flip-box2">
-                        <div class="flip-box-inner2">
-                            <div class="flip-box-front2">
-                            <img class="two" src="https://images.pexels.com/photos/128865/pexels-photo-128865.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-                            </div>
-                            
-                            <div class="flip-box-back2">
-                            <h2>Experience</h2>
-                            <p>Academy Xi</p>
-                            </div>
-                        <div>
-                        </div>
-                    </div>
-                </div>
-            -->
-                <!--  <form>
-                    <label id="name" for="name">write your name</label>
-                    <input type="text" id="name" name="name" placeholder="first name">
-                </form> --> 
-                <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-            </body>
-        </html> -->
